@@ -48,6 +48,7 @@ body {background-color: black;
     margin: auto;
    
 }
+
 /*titulo blog (inicio)*/
 .blog{
     color: white;
@@ -59,7 +60,7 @@ body {background-color: black;
                 0 0 80px #a200ff;
 }
 
-/*titulo blog (inicio)*/
+/*titulo servicios (inicio)*/
 .servicios{
     color: white;
     text-shadow: 
@@ -68,6 +69,15 @@ body {background-color: black;
                 0 0 20px #0040ff,
                 0 0 40px #0040ff,
                 0 0 80px #0040ff;
+}
+/*titulo portafolio */
+.portafoliotitu2{
+  text-shadow: 
+              0 0 5px #ff00b7,
+              0 0 10px #ff00b7,
+              0 0 20px #ff00b7,
+              0 0 40px #ff00b7,
+              0 0 80px #ff00b7;
 }
 
 /*titulo testimonios */
@@ -81,6 +91,16 @@ body {background-color: black;
                 0 0 80px #cf0bb5;
 }
 
+/*titulo audiovisules*/
+.servicios{
+  color: white;
+  text-shadow: 
+              0 0 5px #c300ff,
+              0 0 10px #c300ff,
+              0 0 20px #c300ff,
+              0 0 40px #c300ff,
+              0 0 80px #c300ff;
+}
 
 
 .acercademi2{
@@ -92,6 +112,8 @@ body {background-color: black;
                 0 0 40px #ff00c8,
                 0 0 80px #ff00c8;
 }
+
+
 
 .titulo2{ 
    
