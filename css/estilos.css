@@ -1,0 +1,228 @@
+* { box-sizing: border-box;}
+
+
+body {background-color: black;
+}
+
+
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.card{
+    margin-top: 40px;
+    
+}
+/*titulo mi historia (inicio)*/
+.mihistoria{
+    color: white;
+    text-shadow: 
+                0 0 5px #cf08da,
+                0 0 10px #cf08da,
+                0 0 20px #cf08da,
+                0 0 40px #cf08da,
+                0 0 80px #cf08da;
+}
+/*titulo portafolio (inicio)*/
+.portafoliotitu{
+    text-shadow: 
+                0 0 5px #ff00b7,
+                0 0 10px #ff00b7,
+                0 0 20px #ff00b7,
+                0 0 40px #ff00b7,
+                0 0 80px #ff00b7;
+}
+/*borde del titulo de portafolio y del de habilidades(inicio)*/
+.titulo{
+    
+    border: solid 3px #ff00b7;
+    box-shadow: 
+                0 0 5px #ff00b7,
+                0 0 10px #ff00b7,
+                0 0 20px #ff00b7,
+                0 0 40px #ff00b7,
+                0 0 80px #ff00b7;
+    height: 49px; 
+    margin: auto;
+   
+}
+/*titulo blog (inicio)*/
+.blog{
+    color: white;
+    text-shadow: 
+                0 0 5px #a200ff,
+                0 0 10px #a200ff,
+                0 0 20px #a200ff,
+                0 0 40px #a200ff,
+                0 0 80px #a200ff;
+}
+
+
+.acercademi2{
+    color: white;
+    text-shadow: 
+                0 0 5px #ff00c8,
+                0 0 10px #ff00c8,
+                0 0 20px #ff00c8,
+                0 0 40px #ff00c8,
+                0 0 80px #ff00c8;
+}
+
+.titulo2{ 
+   
+    height: 49px; 
+    margin: auto;
+}
+
+.titulo3{ 
+   
+    height: 49px; 
+    margin: auto;
+}
+
+.insta{
+   
+    margin-top: 50px;
+    text-align: center;
+}
+
+.insta2{
+    text-align: center;
+    margin-bottom: 60px;
+   
+}
+
+
+
+
+.servicios{ 
+   
+    height: 49px; 
+    margin: auto;
+}
+.portafolio{
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+
+.caja1 {
+    border-style: dashed ;color: rgb(255, 0, 162);
+    border-left:  none;
+    border-bottom: none;
+    border-right-color: rgb(255, 0, 162);
+    height: 700px;
+    margin-top: 63px;
+    
+    
+    
+}
+
+
+.caja2 {
+    border-style: dashed ;color: rgb(255, 0, 162); 
+    border-left:  none;
+    border-right:  none;
+    border-bottom: none;
+    height: 700px;  
+    margin-top: 63px;
+    
+}
+
+.portaimagen{
+    margin-left: 100px;
+}
+
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+  }
+  
+
+.centrar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+  
+/*aca esta el estilo del boton de*/
+
+.container {
+    
+    
+    padding: 20px;
+    border-radius: 8px;
+    
+    position: relative;
+}
+.info-hidden {
+    display: none;
+}
+
+.info-visible {
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    
+    color: blue;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+button:hover {
+    background-color: blue;
+    color: white; 
+    border: none;
+}
+
+article{
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+
+}
+
+article img:first-child {
+box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+border-radius: 4px;
+object-fit: cover;
+width: 100%;
+}
+
+article img:last-child {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+
+}
+
+article:hover {
+    transform: 
+    perspective(250px);
+    rotate: 10deg;
+}
